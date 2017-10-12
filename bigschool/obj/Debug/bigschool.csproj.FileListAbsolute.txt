@@ -173,3 +173,4 @@ F:\ltweb\bigschool\bigschool\obj\Debug\bigschool.csproj.GenerateResource.Cache
 F:\ltweb\bigschool\bigschool\obj\Debug\bigschool.csproj.CoreCompileInputs.cache
 F:\ltweb\bigschool\bigschool\obj\Debug\bigschool.dll
 F:\ltweb\bigschool\bigschool\obj\Debug\bigschool.pdb
+F:\ltweb\bigschool\bigschool\obj\Debug\bigschool.Migrations.AddNameColumnToApplicationUser.resources

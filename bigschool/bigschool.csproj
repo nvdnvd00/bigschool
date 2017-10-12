@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -218,6 +219,10 @@
     <Compile Include="Migrations\201710050756072_changedatabase.Designer.cs">
       <DependentUpon>201710050756072_changedatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710120312377_AddNameColumnToApplicationUser.cs" />
+    <Compile Include="Migrations\201710120312377_AddNameColumnToApplicationUser.Designer.cs">
+      <DependentUpon>201710120312377_AddNameColumnToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -316,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201710050756072_changedatabase.resx">
       <DependentUpon>201710050756072_changedatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710120312377_AddNameColumnToApplicationUser.resx">
+      <DependentUpon>201710120312377_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
